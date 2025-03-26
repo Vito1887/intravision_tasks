@@ -1,0 +1,64 @@
+.overlay {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.modal {
+  width: var(--SEARCH_MAX_WIDTH);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--COLOR_FOREGROUND);
+  animation: modalSlideIn 0.3s ease-out;
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--PADDING_16) var(--PADDING_20);
+  background-color: #1f4f8e;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: var(--FONT_SIZE_18);
+  font-weight: var(--WEIGHT_NORMAL);
+  color: var(--COLOR_FOREGROUND);
+}
+
+.closeButton {
+  padding: 0;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.closeButton:hover {
+  opacity: 1;
+}
+
+.content {
+  flex: 1;
+  text-align: start;
+  padding: var(--PADDING_20);
+  overflow-y: auto;
+  background-color: #f5f5f5;
+}
+
+@keyframes modalSlideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

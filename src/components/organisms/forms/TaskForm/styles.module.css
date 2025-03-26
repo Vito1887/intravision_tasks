@@ -1,0 +1,111 @@
+.formContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formMain {
+  flex: 1;
+  padding: var(--PADDING_20);
+  background-color: var(--COLOR_FOREGROUND);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--GAP_20);
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: var(--GAP_8);
+}
+
+.formField label {
+  font-size: var(--FONT_SIZE_TEXT);
+  font-weight: var(--WEIGHT_NORMAL);
+  color: #666;
+}
+
+.formField input,
+.formField textarea,
+.formField select {
+  width: 100%;
+  padding: var(--PADDING_8) var(--PADDING_12);
+  border-radius: var(--RADIUS_4);
+  border: var(--SIZE_BORDER) solid #e5e5e5;
+  font-size: var(--FONT_SIZE_TEXT);
+  background-color: var(--COLOR_FOREGROUND);
+}
+
+.formField input:focus,
+.formField textarea:focus,
+.formField select:focus {
+  outline: none;
+  border-color: #008cf0;
+}
+
+.formField textarea {
+  min-height: var(--SIZE_120);
+  resize: vertical;
+}
+
+.submitButton {
+  align-self: flex-start;
+  margin-top: var(--MARGIN_20);
+  padding: var(--PADDING_12) var(--PADDING_24);
+  border-radius: var(--RADIUS_4);
+  border: none;
+  font-size: var(--FONT_SIZE_TEXT);
+  font-weight: var(--WEIGHT_NORMAL);
+  color: var(--COLOR_FOREGROUND);
+  background-color: #008cf0;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0070cc;
+}
+
+.formSidebar {
+  padding: var(--PADDING_20);
+  border-top: var(--SIZE_BORDER) solid #e5e5e5;
+  background-color: var(--COLOR_FOREGROUND);
+}
+
+.sidebarSection {
+  margin-bottom: var(--MARGIN_20);
+}
+
+.sidebarSection:last-child {
+  margin-bottom: 0;
+}
+
+.sidebarSection h3 {
+  margin: 0 0 var(--MARGIN_8) 0;
+  font-size: var(--FONT_SIZE_TEXT);
+  font-weight: var(--WEIGHT_NORMAL);
+  color: #666;
+}
+
+.sidebarSection span {
+  font-size: var(--FONT_SIZE_TEXT);
+  color: #333;
+}
+
+.priorityBadge {
+  display: inline-block;
+  padding: var(--PADDING_4) var(--PADDING_8);
+  border-radius: var(--RADIUS_4);
+  font-size: var(--FONT_SIZE_SUB_TEXT);
+  background-color: #f5f5f5;
+}
+
+.statusBadge {
+  display: inline-block;
+  padding: var(--PADDING_4) var(--PADDING_8);
+  border-radius: var(--RADIUS_4);
+  font-size: var(--FONT_SIZE_SUB_TEXT);
+  color: var(--COLOR_FOREGROUND);
+}

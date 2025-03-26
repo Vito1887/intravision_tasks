@@ -1,0 +1,13 @@
+.pageWrapper {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.withFixedHeader {
+  padding-left: var(--PADDING_20);
+  padding-right: var(--PADDING_20);
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.disabled {
+  opacity: var(--OPACITY_05);
+}
+
+.disabled:hover {
+  background: var(--COLOR_POSITIVE);
+  cursor: default;
+}

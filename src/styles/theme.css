@@ -1,0 +1,106 @@
+:root {
+  --FONT_DEFAULT: SanFrancisco;
+
+  --WEIGHT_NORMAL: 500;
+  --WEIGHT_600: 600;
+
+  --MODAL_MOBILE: 95vh;
+
+  --TRANSITION_03: 0.3s;
+  --TRANSITION_05: 0.5s;
+  --TRANSITION_1: 1s;
+
+  --OPACITY_05: 0.5;
+  --OPACITY_1: 1;
+
+  --FONT_SIZE_SUB_TEXT: 12px;
+  --FONT_SIZE_TEXT: 14px;
+  --FONT_SIZE_SUB_TITLE: 16px;
+  --FONT_SIZE_18: 18px;
+
+  --LINE_HEIGHT_14: 14px;
+  --LINE_HEIGHT_16: 16px;
+  --LINE_HEIGHT_20: 20px;
+
+  /* Surface */
+  --COLOR_FOREGROUND: rgba(255, 255, 255, 1); /* #FFFFFF */
+  --COLOR_BLURRED_FOREGROUND: rgba(255, 255, 255, 0.3); /* #FFFFFF */
+  --COLOR_SECONDARY_BACKGROUND: rgba(243, 245, 251, 1); /* #F3F5FB */
+  --COLOR_CELADON_BACKGROUND: rgba(209, 224, 237, 1); /* #D1E0ED */
+  --COLOR_POP_UP_BACKGROUND: rgba(38, 26, 89, 0.9); /* #261A59 */
+  --COLOR_INKY_BACKGROUND: rgba(0, 0, 0, 1); /* #000000 */
+  --COLOR_BID_OPENED_BACKGROUND: rgba(230, 91, 86, 1); /* #E65B56 */
+  --COLOR_BID_IN_PROGRESS_BACKGROUND: rgba(255, 176, 48, 1); /* #FFB030 */
+  --COLOR_BID_COMPLETED_BACKGROUND: rgba(155, 195, 70, 1); /* #9BC346 */
+  --COLOR_BID_REQUIRES_CLARIFICATION_BG: rgba(192, 192, 192, 1); /* #C0C0C0 */
+  --COLOR_BID_POSTPONED_BACKGROUND: rgba(227, 38, 54, 1); /* #E32636 */
+  --COLOR_BID_CLOSED_BACKGROUND: rgba(55, 170, 113, 1); /* #37AA71 */
+
+  /* Text & Icons */
+  --COLOR_PRIMARY: rgba(38, 26, 89, 1); /* #261A59 */
+  --COLOR_SUBTEXT: rgba(142, 142, 173, 1); /* #8E8EAD */
+  --COLOR_NEGATIVE: rgba(253, 135, 110, 1); /* #FD876E */
+  --COLOR_POSITIVE_DEFAULT: rgba(86, 173, 113, 1); /* #56AD71 */
+
+  /* Buttons & Accent Colors */
+  --COLOR_POSITIVE: rgba(86, 173, 113, 1); /* #56AD71 */
+  --COLOR_POSITIVE_PRESSED: rgba(91, 188, 121, 1); /* #5BBC79 */
+
+  /* Strokes */
+  --COLOR_STROKE_LIGHT: rgba(237, 237, 237, 1); /* #EDEDED */
+
+  /* Shadows */
+  --COLOR_SHADOW_GENERAL: rgba(179, 179, 199, 0.2); /* #B3B3C7 */
+  --COLOR_SHADOW_POSITIVE: rgba(109, 190, 134, 0.5); /* #6DBE8680 */
+
+  --SIZE_BORDER: 1px;
+  --SIZE_BORDER_THICK: 2px;
+  --SIZE_TOP_LINE: 4px;
+  --SIDEBAR_WIDTH: 300px;
+  --CONTENT_MAX_WIDTH: 335px;
+  --PAGE_MAX_WIDTH: 435px;
+  --SEARCH_MAX_WIDTH: 600px;
+  --MODAL_MAX_WIDTH: 900px;
+
+  --SIZE_8: 8px;
+  --SIZE_10: 10px;
+  --SIZE_16: 16px;
+  --SIZE_32: 32px;
+  --SIZE_40: 40px;
+  --SIZE_60: 60px;
+  --SIZE_96: 96px;
+  --SIZE_120: 120px;
+  --SIZE_190: 190px;
+
+  --RADIUS_4: 4px;
+  --RADIUS_6: 6px;
+  --RADIUS_10: 10px;
+  --RADIUS_12: 12px;
+  --RADIUS_16: 16px;
+  --RADIUS_20: 20px;
+
+  --GAP_8: 8px;
+  --GAP_10: 10px;
+  --GAP_12: 12px;
+  --GAP_16: 16px;
+  --GAP_20: 20px;
+  --GAP_24: 24px;
+
+  --MARGIN_4: 4px;
+  --MARGIN_6: 6px;
+  --MARGIN_8: 8px;
+  --MARGIN_10: 10px;
+  --MARGIN_20: 20px;
+  --MARGIN_30: 30px;
+
+  --PADDING_2: 2px;
+  --PADDING_4: 4px;
+  --PADDING_8: 8px;
+  --PADDING_10: 10px;
+  --PADDING_12: 12px;
+  --PADDING_16: 16px;
+  --PADDING_20: 20px;
+  --PADDING_24: 24px;
+  --PADDING_30: 30px;
+  --PADDING_40: 40px;
+}

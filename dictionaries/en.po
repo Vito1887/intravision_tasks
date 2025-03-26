@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.3.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2021-01-08T00:00:00.000Z\n"
+"PO-Revision-Date: 2022-04-19T00:00:00.000Z\n"
+
+msgctxt "base"
+msgid "base.buttons.createRequest"
+msgstr "Create a request"
+
+msgctxt "base"
+msgid "base.buttons.save"
+msgstr "Save"
+
+msgctxt "base"
+msgid "components.organisms.Page.title"
+msgstr "Main"
+
+msgctxt "base"
+msgid "components.routes.pages.Error404.body"
+msgstr "This is not the page you’re looking for :("
+
+msgctxt "base"
+msgid "components.routes.pages.Error404.title"
+msgstr "404 Not found"
+
+msgctxt "base"
+msgid "components.routes.pages.Main.title"
+msgstr "Main"
+
+msgctxt "base"
+msgid "components.routes.pages.User.notFound"
+msgstr "User not found"
+
+msgctxt "base"
+msgid "components.routes.pages.User.title"
+msgstr "Main Page"
+
+msgctxt "base"
+msgid "components.templates.WithHeader.goBack"
+msgstr "Go back"
+
