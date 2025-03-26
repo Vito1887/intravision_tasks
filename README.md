@@ -1,4 +1,4 @@
-# ts-redux-template
+# Intravision Tasks
 
 Code template
 
